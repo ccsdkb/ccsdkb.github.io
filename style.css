@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body { 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: orange;
+}
+
+#supbar { 
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    float: left;
+    padding-left: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Oswald, sans-serif;
+
+}
+
+.quadro {
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+#facebook {
+    background-color: rgb(58, 85, 159);
+}
+
+img {
+    width: 512px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#facebookimage {
+    margin-right: 10px;
+    background-color: white;
+    height: 520px;
+}
+
+h2 {
+    font-family: Oswald;
+    font-style: oblique;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#youtubeimage {
+    float: right;
+    margin-left: 10px;
+
+}
+
+#texto {
+    font-family: Oswald;
+    color: white;
+    text-align: justify;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#youtube {background-color: red;}
+
+#whatsapp {
+    background-color: rgb(0, 230, 118);
+}
+
+#whatsappimage {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#instagramicon {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#instagram {
+    background-color: rgb(74, 101, 213);
+}
+
+#linkedinicon{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 60px;
+    width: 500px;
+    height: 500px;
+}
+
+#linkedin {
+    background-color: rgb(12, 12, 83);
+    margin-bottom: 20px;
+}
+
+#footer {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+h3 {
+    color: white;
+    font-family: Oswald, sans-serif;
+}
+
+#autor {
+    margin-left: 120px;
+}
+
+#fonte {
+    font-size: 12px;
+    transform: translateY(40%);
+}
+
+@media only screen and (max-width: 1665px) {
+    body { font-size: 10px;
+    float: none;}
+    img {
+        width: 20%;
+
+
+
+    }
+
+
+  }
